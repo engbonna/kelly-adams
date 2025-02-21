@@ -1,0 +1,40 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--background-color);
+}
+.header{
+    background-color:rgb(235, 232, 232);
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+.nav-menu :hover{
+    color: #34b7a7;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav-menu li{
+    list-style: none;
+}  
+.nav-icon i{
+    color: black;
+} 
+
+.hero-img{
+    
+    height: 700px;
+    background-image:url("img/hero-bg.jpg");
+    background-size: cover;
+}
+
+/*=== footer-section ===*/
+.light-background{
+    background-color:#e9e8e6;
+    height: 230px;
+}
+.footer-icon i{
+    font-size: 40px;
+    color: black;
+}

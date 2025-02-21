@@ -1,0 +1,89 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color:var(--background-color);
+}
+
+.header{
+    background-color:rgb(235, 232, 232);
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+.nav-menu :hover{
+    color: #34b7a7;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav-menu li{
+    list-style: none;
+}  
+.nav-icon i{
+    color: black;
+} 
+.nav-icon :hover{
+  color: #34b7a7;
+
+}
+
+
+/*=== service-Section ===*/
+.section-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background: #34b7a7;
+    width: 50px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .portfolio-filters{
+    padding: 0;
+    margin:0 auto 20px auto ;
+    list-style: none;
+    text-align: center;
+
+  }
+  .portfolio-filters li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+   
+  }
+
+  .portfolio-filters :hover{
+    color:white;  
+    background-color:#34b7a7; 
+  } 
+
+  /* .portfolio-filters ul{
+    display: block;
+  } */
+
+  /* .nav-menu2{
+    margin-left: 480px;
+  }
+  .nav-menu2 a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav-menu2 li{
+    list-style: none;
+} 
+.nav-menu2 :hover{
+  color:white;  
+  background-color:#34b7a7; 
+  border-radius:30px;
+  padding: 10px;
+} */
