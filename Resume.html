@@ -9,48 +9,82 @@
     <link rel="stylesheet" href="Resume.css">
 </head>
 <body>
-       <!--=== Navbar ===-->
-       <nav class="header d-flex mt-4 aline-item-center justify-content-between mt-4 p-3">
-        <h4 class="sitename fw-bold">KELLY</h4>
-        <ul class="nav-menu d-flex gap-4 ">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Dropdown</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="nav-icon">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-    </nav>
-
-    <!--=== Resume-section ===-->
-    <div class="container mt-5 mb-5">
-        <div class="row">   
-            <div class="section-title text-center">
-                <h2 class="fw-bold">Resume</h2> 
-                <p class="h5 fw-normal mt-4 ">Necessitatibus eius consequature ex aliquid fuga eum quidem sint cinsectetur velit</p>
+   <!--== nave-menu ==-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kelly</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfoliio</a>
+                    </li>            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Deep Dropdown</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>                              
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>                              
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-icon">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
-            <!--=== Resume-info ===-->
+        </div>
+    </nav> 
+
+  <!--=== Resume-section ===-->
+    <div class="section-title text-center mt-5 mb-5">
+       <h2 class="fw-bold">Resume</h2> 
+        <p class="h5 fw-normal mt-4 ">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint cinsectetur velit</p>
+    </div>
+   <!--=== Resume-info ===-->
+    <div class="container mt-5 mb-5">
+        <div class="row">
             <div class="Resume-info col-md-6 mt-4">
                 <div class="Resume-title">
                     <h3>Sumary</h3>
                     <div class="Resume-item">
                         <h5 class="fw-normal">BRANDON JOHNSON</h5>
                         <P class="fst-italic">Innovative and deadlin-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final,polished deliverable.</P>
-                      <ul>
-                           <li>Portland par 127,Orlando,FL</li>
+                        <ul>
+                            <li>Portland par 127,Orlando,FL</li>
                             <li>(123) 456-7891</li>
-                           <li>alice.barkley@example.com</li>
+                            <li>alice.barkley@example.com</li>
                         </ul>
                     </div>
-                  
-                    
                 </div>
                 <div class="Resume-title mt-2">
                     <h3>Education</h3>
@@ -68,9 +102,6 @@
                         <P>Quia nobis sequi est occaecati aut.Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores 
                         voluptatem Earum molestiae consequatur neque etlon sader mart dila</P>
                     </div>
-                    
-                     
-                    
                 </div>
             </div>
             <div class="Resume-info col-md-6 mt-4">
@@ -91,8 +122,8 @@
                         <h5 class="fw-normal mb-3">GRAPHIC DESIGN SPECIALIST</h5>
                         <strong class="fst-italic">2017-2018</strong>
                         <P class="fst-italic mt-3">Stepping Stone Asvertising,New York,NY</P>
-                       <ul>
-                           <li>Developed numerous marketing programs (logos,brochures,infographics,presentations,and advertisments).</li>
+                        <ul>
+                            <li>Developed numerous marketing programs (logos,brochures,infographics,presentations,and advertisments).</li>
                             <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
                             <li>Recommended and consulted with ckients on the most appropriate graphic design</li>
                             <li>Creatd 4+ design presentations and proposals a month for clients and account managers</li>
@@ -102,9 +133,10 @@
             </div>
         </div>
     </div>
+    
 
     <!--=== Footer ===-->
-    <div class="container light-background mt-4 text-center mb-4">
+    <div class="container light-background mt-4 text-center mb-4" style="background-color: #e9e8e6; height: 230px;">
         <div class="row">
             <div class="col-md-12 mt-5">
                <span>© Copyright</span>

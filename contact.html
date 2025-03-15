@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
   <!--== nave-menu ==-->
@@ -52,7 +52,7 @@
             </ul>
           </li>          
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         <div class="nav-icon">
@@ -64,20 +64,68 @@
       </div>
     </div>
   </nav> 
-
-     
-  <!--=== Hero-Section ===-->
-  <div class="container ">
-    <div class="row">
-      <div class="hero-img">
-        <div class="kelly-info col-md-12 mt-5 text-center">
-          <h2>Kelly Adams</h2>
-          <p>I'm a professional illustrator from Bangladesh</p>
-          <button class="btn btn-success">ABOUT ME</button>
+  <!--=== contact-section=== -->
+  <div class="section-title text-center mt-5 mb-5">
+    <h2 class="fw-bold">Contact</h2> 
+    <p class="h5 fw-normal mt-4 ">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint cinsectetur velit</p>
+  </div>
+  <div class="container g-4 mt-5 mb-4">
+    <div class="row mt-5">
+      <div class=" col-md-5">
+        <div class="info-item d-flex">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Address</h3>
+            <p>A108 Asam Street,New York,NY 535022</p>
+          </div>
         </div>
-      </div>                
+        <div class="info-item d-flex">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Call Us</h3>
+            <p>+15589 55488 55</p>
+          </div>
+        </div>
+        <div class="info-item d-flex">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email Us</h3>
+            <p>info@example.com</p>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" 
+          frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="col-md-7">
+        <form>
+          <div class="row">
+            <div class=" col-md-6 pb-4">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 pb-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="col-md-12 pb-4">
+              <label for="email" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="Subject" placeholder="Your Subject" required>
+            </div>
+            <div class="col-md-12 pb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="9" placeholder="Your Message" required></textarea>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-success">Send Message</button>
+      </form>
+      </div>
     </div>
   </div>
+  
+
+ 
    
 <!--=== Footer ===-->
 <div class="container light-background text-center mb-4">
@@ -95,8 +143,7 @@
     </div>
     <p>Designed by <span style="color: rgb(29, 158, 87);">BootstrapMade</span>  Distributed by <span style="color:rgb(29, 158, 87);">ThemeWagon</span></p>
   </div>
-</div>
- 
+</div> 
 <script src="js/bootstrap.bundle.js"> </script>
 </body>
 </html>

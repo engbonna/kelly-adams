@@ -9,32 +9,69 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <!--=== Navbar ===-->
-    <nav class="header d-flex mt-4 aline-item-center justify-content-between mt-4 p-3">
-        <h4 class="sitename fw-bold">KELLY</h4>
-        <ul class="nav-menu d-flex gap-4 ">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="">Dropdown</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="nav-icon">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>       
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+   <!--== nave-menu ==-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kelly</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfoliio</a>
+                    </li>            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Deep Dropdown</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>                              
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>                              
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-icon">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
         </div>
-    </nav>
+    </nav> 
+
+   
     
-    <!--=== Services-section ===-->
+ <!--=== Services-section ===-->
     <div class="section-title text-center mt-5 mb-5">
         <h2 class="fw-bold">Portfolio</h2> 
         <p class="h5 fw-normal mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint cinsectetur velit</p>
     </div>
-    <div class="container">
+    <div class="container py-5">
         <div class="isotope-layout">
             <ul class="portfolio-filters">
                 <li>All</li>
@@ -42,8 +79,184 @@
                 <li>Card</li>
                 <li>Web</li>
             </ul>
+        </div>           
+            <div class="masonry">
+                <div class="card">
+                    <img src="./img/masonry-portfolio-1.jpg" class="card-img-top" alt="Image 1">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-6.jpg" class="card-img-top" alt="Image 2">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-2.jpg" class="card-img-top" alt="Image 3">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-5.jpg" class="card-img-top" alt="Image 4">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-3.jpg" class="card-img-top" alt="Image 5">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-4.jpg" class="card-img-top" alt="Image 6">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-7.jpg" class="card-img-top" alt="Image 7">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-2.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-8.jpg" class="card-img-top" alt="Image 8">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-8.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./img/masonry-portfolio-9.jpg" class="card-img-top" alt="Image 9">
+                    <div class="portfolio-info d-flex p-2" style="gap: 140px;">
+                        <div>
+                            <h4>App 1</h4>
+                            <p>Lorem ipsum,dolor sit</p>
+                        </div>
+                        <div>
+                            <a href="./img/masonry-portfolio-8.jpg">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            <a href="portfolio-details.html">
+                                <i class="bi bi-link-45deg"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!--=== Footer ===-->
+    <div class="container light-background text-center mb-4" style="background-color: #e9e8e6; height: 230px;">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <span>© Copyright</span>
+                <strong>Kelly</strong>
+                <span>All Rights Reserved</span>
+            </div>
+            <div class="footer-icon">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p>Designed by <span style="color: rgb(29, 158, 87);">BootstrapMade</span>  Distributed by <span style="color:rgb(29, 158, 87);">ThemeWagon</span></p>
         </div>
     </div>
-      
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
+

@@ -10,24 +10,59 @@
 </head>
 <body>
     <!--=== Navbar ===-->
-    <nav class="header d-flex mt-4 aline-item-center justify-content-between mt-4 p-3">
-        <h4 class="sitename fw-bold">KELLY</h4>
-        <ul class="nav-menu d-flex gap-4 ">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Dropdown</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="nav-icon">
-            <a href=""><i class="bi bi-twitter-x"></i></a>       
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kelly</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfoliio</a>
+                    </li>            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Deep Dropdown</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>                              
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>                              
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-icon">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
         </div>
-    </nav>
+    </nav> 
 
     <!--=== Services-section ===-->
    <div class="section-title text-center mt-5 mb-5">
@@ -162,7 +197,7 @@
         </div>          
     </div>
     <!--=== Footer ===-->
-    <div class="container light-background mt-4 text-center mb-4">
+    <div class="container light-background mt-4 text-center mb-4" style="background-color: #e9e8e6; height: 230px;">
         <div class="row">
             <div class="col-md-12 mt-5">
                <span>© Copyright</span>
@@ -178,6 +213,6 @@
             <p>Designed by <span style="color: rgb(29, 158, 87);">BootstrapMade</span>  Distributed by <span style="color:rgb(29, 158, 87);">ThemeWagon</span></p>
         </div>
     </div>
-    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>

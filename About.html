@@ -9,100 +9,133 @@
     <link rel="stylesheet" href="About.css">
 </head>
 <body>
-           <!--=== Navbar ===-->
-           <nav class="header d-flex mt-4 aline-item-center justify-content-between mt-4 p-3">
-            <h4 class="sitename fw-bold">KELLY</h4>
-            <ul class="nav-menu d-flex gap-4">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Resume.html">Resume</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Dropdown</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="nav-icon">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+   <!--== nave-menu ==-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kelly</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfoliio</a>
+                    </li>            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Deep Dropdown</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 2</a></li>                              
+                                    <li><a class="dropdown-item" href="#">Deep Dropdown 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>                              
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-icon">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
             </div>
-        </nav>
+        </div>
+    </nav> 
+
 
     <!--=== About-Section ===-->
+    <div class="section-title text-center mt-5 mb-5">
+        <h2 class="fw-bold">About</h2> 
+        <p class="h5 fw-normal mt-4 ">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint cinsectetur velit</p>
+    </div>
     <div class="container mt-5 mb-5">
-        <div class="row justify-content-between">   
-            <div class="section-title text-center">
-                <h2>About 
-                </h2> 
-                <p class="h5 fw-normal mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div>
-           
-            <div class=" row mt-5">
-                <div class="profile-img col-md-4">
-                </div>
-                <div class="info col-md-8 p-3">
-                    <h3>UI/UX Designer & Web Developer.</h3>
-                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class=" row mt-4 d-flex justify-content-between ">
-                        <div class=" about col-md-6">
-                            <ul>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Birthday:</strong>
-                                    <span>1 May 1995</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Website:</strong>
-                                    <span>www.example.com</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Phone:</strong>
-                                    <span>+123 456 7890</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>City:</strong>
-                                    <span>New York, USA</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class=" about col-md-6">
-                            <ul>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Age:</strong>
-                                    <span>30</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Degree:</strong>
-                                    <span>Master</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Email:</strong>
-                                    <span>email@example.com</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Freelance:</strong>
-                                    <span>Available</span>
-                                </li>
-                            </ul>
-                        </div>
+        <div class=" row mt-5">
+            <div class="profile-img col-md-4">
+           </div>
+            <div class="info col-md-8 p-3">
+                <h3>UI/UX Designer & Web Developer.</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class=" row mt-4 d-flex justify-content-between ">
+                    <div class=" about col-md-6">
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Birthday:</strong>
+                                <span>1 May 1995</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Website:</strong>
+                                <span>www.example.com</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Phone:</strong>
+                                <span>+123 456 7890</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>City:</strong>
+                                <span>New York, USA</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" about col-md-6">
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Age:</strong>
+                                <span>30</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Degree:</strong>
+                                <span>Master</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Email:</strong>
+                                <span>email@example.com</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Freelance:</strong>
+                                <span>Available</span>
+                            </li>
+                        </ul>
+                    </div>
                         
-                        <div>
-                            <P class="mt-4">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis
-                            quidem quia. Sed et consectetur qui quia repellendus itaque neque</P>
-                        </div>
+                    <div>
+                        <P class="mt-4">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis
+                        quidem quia. Sed et consectetur qui quia repellendus itaque neque</P>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+   
 
     <!--=== Skills-Section ===-->
     <div class="container mt-5 mb-5">
@@ -168,48 +201,53 @@
         </div>
     </div>
 
-    <!--=== Fact-Section ===-->
-
-    <div class="container mt-5 mb-5">
-        <div class="row justify-content-between">
-            <div class="section-title col-md-12 text-center">
-                <h2>Fact</h2>
-                <p class="h5 fw-normal mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+ <!--=== Fact-Section ===-->
+    <div class="section-title text-center mt-5 mb-5">
+        <h2 class="fw-bold">Fact</h2> 
+        <p class="h5 fw-normal mt-4 ">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint cinsectetur velit</p>
+    </div>
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="counter" data-target="232">0</div>
+                <p>Clients</p>
             </div>
-        </div>
-        <div class="row mt-5 justify-content-between mb-5 text-center">
-            <div class="row g-4 text-center">
-              <!-- Counter 1 -->
-              <div class="col-md-3">
-                <div class="counter-box">
-                  <h1 data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="2" class="purecounter">232</h1>
-                  <p>Clients</p>
-                </div>
-              </div>
-              <!-- Counter 2 -->
-              <div class="col-md-3">
-                <div class="counter-box">
-                  <h1 data-purecounter-start="0" data-purecounter-end="320" data-purecounter-duration="2.5" class="purecounter">521</h1>
-                  <p>Projects</p>
-                </div>
-              </div>
-              <!-- Counter 3 -->
-              <div class="col-md-3">
-                <div class="counter-box">
-                  <h1 data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="3" class="purecounter">1453</h1>
-                  <p>Hours Of Support</p>
-                </div>
-              </div>
-              <!-- Counter 4 -->
-              <div class="col-md-3">
-                <div class="counter-box">
-                  <h1 data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1.5" class="purecounter">32</h1>
-                  <p>Workers</p>
-                </div>
-              </div>
+            <div class="col-md-3">
+                <div class="counter" data-target="521">0</div>
+                <p>Projects</p>
+            </div>
+            <div class="col-md-3">
+                <div class="counter" data-target="1453">0</div>
+                <p>Hours Of Support</p>
+            </div>
+            <div class="col-md-3">
+                <div class="counter" data-target="32">0</div>
+                <p>Workers</p>
             </div>
         </div>
     </div>
+
+    <script>
+        // Simple Counter Animation
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach(counter => {
+            counter.innerText = '0';
+            const updateCounter = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+
+                const increment = target / 200; // Speed factor
+                if (count < target) {
+                    counter.innerText = `${Math.ceil(count + increment)}`;
+                    setTimeout(updateCounter, 10);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            updateCounter();
+        });
+    </script>
+   
 
  <!--=== Testimonials-Section ===-->
     <div class="container mt-4 mb-4">
@@ -222,9 +260,7 @@
     
 
      <!--=== carousel-slides ====-->
-
-         
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" >
          <!-- Indicators -->
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -232,13 +268,10 @@
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
                 <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 5"></button>
-            </div>
-          
-          
+            </div>                    
          <!--=== carousel-items 1 ====-->
-            
-            <div class="carousel ">
-                <div class="slides">
+            <div class="carousel" style="position: relative; width: 100%; max-width: 800px; margin: auto; overflow: hidden;">
+                <div class="slides" style=" display: flex; width: 100%; height: 400px; animation: slide 15s infinite;">
                     <div class="slide">
                         <div class="container justify-content-between text-center mt-4">
                             <div class="col-md-12 ">
@@ -412,7 +445,7 @@
             <p>Designed by <span style="color: rgb(29, 158, 87);">BootstrapMade</span>  Distributed by <span style="color:rgb(29, 158, 87);">ThemeWagon</span></p>
         </div>
     </div>
-    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
 

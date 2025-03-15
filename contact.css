@@ -1,0 +1,82 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+} 
+
+/*=== nav-menu ===*/
+.navbar-nav .nav-link:hover{
+  color: #34b7a7 !important; 
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color: black;
+ 
+}
+.nav-menu li{
+  list-style: none;
+}  
+.nav-icon i{
+  color: black;
+} 
+.nav-icon :hover{
+  color: #34b7a7 !important; 
+}
+
+/*=== contact-Section ===*/
+.section-title h2::after{
+  content: '';
+  position: absolute;
+  display: block;
+  background: #34b7a7;
+  width: 50px;
+  height: 3px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.info-item i{
+  font-size: 20px;
+  color: #34b7a7;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.info-item :hover{
+  color:white;  
+  background-color:#34b7a7; 
+} 
+.btn{
+  border-radius: 50px;
+}
+
+
+.contact-1{
+  box-shadow: 0px 0 50px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+.contact-2{
+  box-shadow: 0px 0 50px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+/* === footer-section === */
+.light-background{
+  background-color:#e9e8e6;
+  height: 230px;
+}
+.footer-icon i{
+  font-size: 40px;
+  color: black;
+}
