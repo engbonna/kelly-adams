@@ -61,14 +61,14 @@ body{
   position:relative;
   
 }
-.icon svg{
+/* .icon svg{
   position: absolute;
   top: 0;
   left: 0;
 }
 svg{
   vertical-align: middle;
-}
+} */
 
  path {
    transition: 0.3s, color 0.3s;
